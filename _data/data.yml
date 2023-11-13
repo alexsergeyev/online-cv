@@ -5,260 +5,220 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: false # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Alex Segeyev
+    tagline: Technical Lead/CTO
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: alex.sergeyev@gmail.com
+    phone: +46707147896
+    timezone: Europe/Stockholm
+    #citizenship: Swedish
+    #website: blog.mooracle.io #do not add http://
+    linkedin: alexsergeyev
+    github: alexsergeyev
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level:  Full professional proficiency
+        - idiom: Swedish
+          level:  Limited working proficiency
+        - idiom: Belorussian
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - idiom: Russian
+          level: Native
+    
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Skiing
+    #     - item: Sailing
+    #     - item: Cooking
 
 career-profile:
-    title: Career Profile
+    title: About me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      As a seasoned Senior Technical Lead, my experience spans from driving IoT platform development at Netronix to providing high-level technical consultancy at HiQ. I have excelled in designing innovative solutions, managing complex projects, and implementing cutting-edge technologies.
+      At Netronix, I scaled the R&D team and developed a robust IoT platform, demonstrating my leadership and technical expertise. Transitioning to HiQ, I strengthened my consultancy skills through thorough IT evaluations, risk assessments, and implementing best industry practices in Technical Due Diligence (TDD).
+      Apart from my leadership roles, I have extensive programming knowledge, a deep understanding of SQL and NoSQL databases, and infrastructure automation skills. I use these skills to guide development teams, driving innovation and operational excellence.
+      My career commitment is leveraging technology and strategic planning for organizational growth.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Bachelor of Science in Computer Science
+        university: Belorussian State University of Informatics and Radioelectronics
+        time: 2002-2007
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Technical Lead
+        time: Sep 2022 - Present
+        company: HiQ, Stockholm
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          As the Senior Technical Lead at HiQ, my primary duties include conducting Technical Due Diligence (TDD) projects involving comprehensive IT risk evaluations and operational analysis. In this role, I:
+            - Gather and analyze extensive IT documentation
+            - Conduct interviews with key IT personnel
+            - Develop recommendations for enhancing IT governance, infrastructure, and technical capabilities
+            - Perform detailed architectural, tech stack, and DevOps analyses
+            - Create analytical TDD reports with strategic improvement suggestions
+            - Keep our TDD up-to-date by identifying and integrating best industry practices
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+      - role: "Agreement Management Upgrade"
+        company: 'HiQ, Client: SciFree AB'
+        time: May 2023 - Aug 2023
+        details: |
+          I led the development team to create a new Agreement Management platform version. This upgrade resulted in a tenfold reduction in Azure costs and significantly enhanced performance, reducing response times from 800ms to 40ms.
+          - Tech Stack: MongoDB Atlas Search, Ruby, ReactJS, Azure Cloud Services, Azure Static Websites, GitHub Actions, Terraform, Auth0
+      - role: Platform Assessment & Development Plan (Second Opinion)
+        company: 'HiQ, Client: SciFree AB'
+        time: Mar 2023 - Apr 2023
+        details: | 
+          Conducted a comprehensive review of the client's platform for scientific research publications and publisher agreement management. Developed a future-focused plan that included a new architectural design, necessary resources, and a timeline to unlock the platform's potential, all to be achieved within three months.
+          - Tech Stack: Azure SQL, Azure Cloud Services, MDriven low-code platform
+      - role: Security Enhancement
+        company: 'HiQ, Client: Confidential'
+        time: Mar 2023 - July 2023
+        details: |
+          I completed a comprehensive security assessment of the client's platform, examining key areas such as architecture, infrastructure, and code. Identified and mitigated potential security risks by enhancing platform security through IaaC (Terraform) and incorporating security best practices into CI/CD pipelines.
+          - Tech Stack: Google Cloud Platform, Cloud SQL, Cloud Run, Cloud Build, Cloudflare, NodeJS, Prisma, GrapthQL
+      - role: Second Opinion
+        company: 'HiQ, Client: Confidential'
+        time: Feb 2023 - Mar 2023
+        details: |
+          Design an architecture for an IoT platform merging two different IoT stacks into a single platform. Evaluate code and infrastructure to identify potential bottlenecks and provide a development plan for the new team.
+          - Tech Stack: Kubernetes, Rancher, MongoDB, Node.js, Apache Kafka, API Gateway, IoT Architecture, Redis, Microservice Architecture, Event Driven Architecture
+      - role:  Technical Due Diligence Review
+        company: 'HiQ, Client: Confidential'
+        time: Dec 2022 - Jan 2023
+        details: |
+          Perform Technical Due Diligence for an iPaaS, thoroughly reviewing the platform's architecture, scalability, technology stack, infrastructure, and security.
+          - Tech Stack: Azure, Azure Functions, Azure Service Bus, Azure SQL
+      - role: AWS Cost optimization (Second Opinion)
+        company: 'HiQ, Client: Confidential'
+        time: Oct 2022 - Dec 2022
+        details: |
+          Reduce AWS expenses by enhancing the observability of the client's IoT platform. Reviewed the AWS infrastructure and reconstructed it using Terraform. During this process, I discovered several issues and implemented the application code and infrastructure fixes. As a result, the customer was able to reduce their monthly AWS expenses by $12,000.
+          - Tech Stack: AWS Kinesis Firehouse, AWS Redshift, AWS Glue, AWS Relational Database Service (RDS), AWS EKS, AWS Cloudwatch, Terraform
+      - role: Technical Lead
+        company: Netronix, US (remote)
+        time: Nov 2014 - Aug 2022
+        details: |
+          During these years a Netronix, I grow up RnD team from 3 to 10 developers. Build architecture for next-generation IoT platform and infrastructure and organize development process and communication across multiple groups.            
+          * Lead IoT platform development to make it performant, scalable, and secure. 
+          * Manage project targets and validate processes for multiple teams.
+          * Roll out CI/CD pipeline to all projects across all teams. (Github Actions)
+          * Design REST, GraphQL, and Websocket Streaming APIs for IoT Platform.
+          * Created a time-series processing engine with support for aggregation, live data conversion, and multiple storages (Redis, MongoDB, PostgreSQL). 
+          * Developed a new protobuf protocol based transport protocol for communication between devices and processing engine.
+          * Build Lua SDK for controllers that allow aggregation of data or remote management for devices using different protocols (UMB, Modbus, SDI12, etc.)
+          * Add support for over 200 different sensors using Lua SDK
+          * Migrate all infrastructure to AWS and fully automate the deployment process with Terraform and Kubernetes/EKS.
+          * Split application to microservices (Ruby/Elixir) using NATS.io as a messaging broker to support peak processing of 1 million measurements per second.
+          * Design calibration process for (CO2/VOC/Temperature/Humidity) sensors and build a tool to calibrate sensors. (Python/ML)
+
+          Tech Stack: Ruby, Elixir, OpenAPI Specification, GraphQL, Event Driven Architecture, Event Source, Redis, PostgreSQL, MongoDB, Docker, Terraform, Kubernetes, Helm, AWS API Gateway, AWS Elastic Compute Cloud (EC2), AWS Web Application Firewall (WAF), AWS CloudFront, CI/CD, TDD, Python, Pandas, SciPy, TensorFlow, LUA, Google Protocol Buffers (Protobuf), WebSocket, MQTT
+
+      - role: Senior Software Engineer
+        time: Aug 2013 - Nov 2014
+        company: Mynewsdesk, Stockholm
+        details: |
+          As a Senior Software Engineer, I was responsible for spearheading several key initiatives, including:
+          * Developed a novel social media monitoring tool capable of handling about 1000 requests per second from a single node, significantly enhancing scalability and load distribution.
+          * Led successfully migrating a Ruby-on-Rails monolithic application from an on-premise solution to the Heroku cloud platform, ensuring a seamless transition and business continuity.
+
+          Tech Stack: Ruby on Rails, REST, Elasticsearch, Apache Solr, Heroku, Event Driven Architecture, Redis, JavaScript, Nginx, Linux, PostgreSQL
+        
+      - role: Senior Software Engineer
+        time: Nov 2011 - Aug 2013
+        company: Netronix, US (remote)
+        details: |
+          I have developed an IoT platform for monitoring and controlling multiple 3rd party sensors from web applications. It consists of the following micro-services:
+          * device server that communicates with devices over 2G/3G network
+          * processing engine to convert data from internal sensor protocols to a unified format
+          * live and historical reporting backend
+          * alerting engine to send alerts to users via email/SMS (based on user-defined conditions)
+          * web application to visualize and control devices
+          
+          It supports about 50 different 3rd party sensors using Modbus, SDI12, UMB, and vendor-specific protocols with the ability to write extensions for any other sensors.
+          Tech Stack: Ruby, JavaScript, Ruby on Rails, MySQL, AWS, AWS API Gateway, Redis, AWS S3, Nginx, Rest API
+      
+      - role: Software Engineer
+        time: Apr 2011 - Oct 2011
+        company: Vizrt, Stockholm
+        details: |
+          I was responsible for debugging, refactoring, and optimizing backend services to support and improve the Media Archive Management platform used for many TV channels worldwide (TV6, SVT in Sweden).
+          Tech Stack:  Perl, DB2, Oracle, SVN, Linux
+  
+      - role: Consult
+        company: Freelance
+        time: Apr 2010 - Apr 2011
+        details: |
+          * Senior Developer, Qubator AB (Stockholm) - developed mobile version of sportprofile.com
+          * Senior Developer/Project Lead, Lawline HB. Website for Swedish law-community lawline.se
+
+      - role: Senior Developer
+        company: Playfon Sweden AB
+        time: Jan 2008 - Apr 2010
+        details: |
+          I have created a platform to analyze traffic and content sales for mobile phones. This platform was used on wap sites of Nokia and SonyEricsson in Sweden, Latvia, Lithuania, Estonia, and Russia and detects new sales points and marketing campaigns. Since its production release in June 2008, it has processed about 2 million daily requests.
+
+          Tech Stack: PHP, SQL, DRBD, MySQL, Git
+
+      - role: Developer
+        company: Playfon Sweden AB
+        time: Apr 2005 - Dec 2007
+        details: |
+          * Development and maintenance of high-availability hosting platform for web/wap applications with Debian GNU\Linux, heartbeat, OpenVZ, nginx/apache2, MySQL, DRB    
+          * Design and development of video streaming platform for mobile phones. (PHP/Perl, Darwin Streaming Server, VLC, ffmpeg)
+          * I am participating in developing several wap-applications (PHP/MySQL) and designing a remote wap-billing platform.
         
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Mooracle
+        link: "mooracle.io"
+        tagline: "MooRacle revolutionizes dairy farming by combining advanced IoT technology and immersive BovineVR experiences to boost cow happiness, well-being, and milk production"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Terraform Education
+        link: "https://github.com/alexsergeyev/hiq-static"
+        tagline: "A quick step-by-step guide to getting started with Terraform"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Project Management
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Software Architecture
+        level: 98%
+    
+      - name: Infrastructure as code
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Security & Compliance
+        level: 95%
+      
+      - name: AWS Cloud
+        level: 90%
 
-      - name: HTML5 & CSS
+      - name: Ruby
+        level: 95%
+      
+      - name: NoSQL and SQL Databases
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Elixir
+        level: 80%
 
-      - name: Sketch & Photoshop
+      - name: Kubernetes
+        level: 90%
+
+      - name: Python & Machine Learning
         level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
